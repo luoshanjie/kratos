@@ -93,3 +93,31 @@ end
 --
 --     return false;
 -- end
+
+-- Api.endpoint('POST', '/test',
+--     function(body)
+--         return ngx.say(
+--             cjson.encode(
+--                 {
+--                     method=method,
+--                     path=path,
+--                     body=body
+--                 }
+--             )
+--         );
+--     end
+-- )
+--
+-- Api.endpoint('GET', '/test/<id>/<name>',
+--     function(body)
+--         return ngx.say(
+--             cjson.encode(
+--                 {
+--                     method=method,
+--                     path=path,
+--                     body=body,
+--                 }
+--             )
+--         );
+--     end
+-- )
