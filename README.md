@@ -16,5 +16,14 @@ $ docker-compose restart
 ```
 We can add/remove/change lua file from dir app and framework
 
+## Feature
+To build a centralized API gateway, we need to consider the following points:
+- Authentication
+- Request routing
+- Rate limiting
+- Load balancing
+- Security
+- Logging
+
 ## Thanks
 Thank you follow this project
