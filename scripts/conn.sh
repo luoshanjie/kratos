@@ -11,4 +11,6 @@ fi
 # --header 'Content-Type: application/json' \
 # --data-raw '{ "example" : "true" }' \
 # http://127.0.0.1:10086
+# curl使用详解
+# https://gist.github.com/subfuzion/08c5d85437d5d4f00e58
 curl -d '{"example":"true"}' -H "Content-Type: application/json" -X POST http://127.0.0.1:10086/api/test
